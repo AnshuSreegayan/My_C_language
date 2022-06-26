@@ -1,13 +1,20 @@
+/* Write a program to find the factorial value of any number 
+entered through the keyboard.*/
+
 #include<stdio.h>
 #include<conio.h>
-
-main( ) 
-{ 
-	 int a = 300, b, c ; 
-	 if ( a >= 400 ) 
-	 b = 300 ; 
-	 c = 200 ; 
-	 printf ( "\n%d %d", b, c ) ; 
-	 
-	 return 0;
-} 
+int main()
+{
+	int n,factorial=1;
+	printf("Enter the any number =");
+	scanf("%d",&n);
+	
+	while(1<=n)
+	{
+		factorial=factorial*n;
+		n--;
+	}
+	printf("%d",factorial);
+	return 0;
+	
+}
