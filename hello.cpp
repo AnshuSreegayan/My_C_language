@@ -1,9 +1,9 @@
+#include <stdio.h>
 #include<conio.h>
-#include<stdio.h>
- int main()
- {
-
- 	printf("hello");
- 	return 0;
- 	
- }
+int main()
+{
+	while (printf("hello world"))
+	{
+	}
+	return 0;
+}
